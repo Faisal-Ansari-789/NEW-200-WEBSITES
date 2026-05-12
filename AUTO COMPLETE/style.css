@@ -1,0 +1,17 @@
+body{
+  background:#0f172a;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+.box{
+  width:250px;
+  background:white;
+  padding:15px;
+  border-radius:10px;
+}
+li{
+  list-style:none;
+  padding:5px;
+}

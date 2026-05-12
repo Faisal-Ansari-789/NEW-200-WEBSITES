@@ -1,0 +1,13 @@
+body{
+  background:#022c22;
+  color:white;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+input{
+  padding:10px;
+  width:250px;
+}

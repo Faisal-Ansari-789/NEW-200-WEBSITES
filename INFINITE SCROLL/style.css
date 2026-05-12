@@ -1,0 +1,9 @@
+body{
+  background:#0f172a;
+  color:white;
+  font-family:Arial;
+}
+.item{
+  padding:20px;
+  border-bottom:1px solid #334155;
+}

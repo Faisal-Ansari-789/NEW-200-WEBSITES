@@ -1,0 +1,19 @@
+body{
+  background:#020617;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  color:white;
+}
+.wrap{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+  width:600px;
+}
+.preview{
+  background:#111827;
+  padding:15px;
+  border-radius:8px;
+}

@@ -1,0 +1,9 @@
+body{
+  background:#022c22;
+  color:#bbf7d0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  font-family:monospace;
+}

@@ -1,0 +1,27 @@
+body{
+  background:#020617;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+.card{
+  background:white;
+  width:300px;
+  padding:20px;
+  border-radius:10px;
+}
+.step{ display:none; }
+.step.active{ display:block; }
+.progress{
+  height:6px;
+  background:#e5e7eb;
+  border-radius:4px;
+  margin-bottom:15px;
+}
+#bar{
+  height:100%;
+  width:0%;
+  background:#22c55e;
+  transition:.3s;
+}
