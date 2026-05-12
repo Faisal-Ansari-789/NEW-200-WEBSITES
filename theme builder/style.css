@@ -1,0 +1,13 @@
+:root {
+  --bg: rgba(121, 235, 148, 0.452);
+  --text: black;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

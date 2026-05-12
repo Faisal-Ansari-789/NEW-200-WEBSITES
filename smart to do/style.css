@@ -1,0 +1,25 @@
+body {
+  font-family: Arial;
+  background: #1e1e2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background: #fff;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+.High { color: red; }
+.Medium { color: orange; }
+.Low { color: green; }
