@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #eee;
+  overflow: hidden;
+}
+#player {
+  width: 40px;
+  height: 40px;
+  background: blue;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+}
+#enemy {
+  width: 40px;
+  height: 40px;
+  background: red;
+  position: absolute;
+  top: 0;
+  left: 20%;
+}
