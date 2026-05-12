@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  font-family: Arial;
+}
+.colors {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  gap: 10px;
+  justify-content: center;
+}
+.btn {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.red {background:red;}
+.green {background:green;}
+.blue {background:blue;}
+.yellow {background:yellow;}
