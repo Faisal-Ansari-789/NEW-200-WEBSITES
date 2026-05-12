@@ -1,0 +1,12 @@
+body{
+  background:#020617;
+  color:#38bdf8;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  font-family:monospace;
+}
+.timer{
+  font-size:28px;
+}

@@ -1,0 +1,28 @@
+body{
+  margin:0;
+  background:#0f172a;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+  padding:20px;
+}
+.grid img{
+  width:100%;
+  cursor:pointer;
+  border-radius:8px;
+}
+#modal{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.8);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.hidden{ display:none; }
+#modal img{
+  max-width:80%;
+  border-radius:10px;
+}
