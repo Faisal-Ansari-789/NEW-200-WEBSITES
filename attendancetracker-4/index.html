@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Attendance Tracker</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f5f5f5; margin: 0; padding: 20px; }
+    h1 { text-align: center; color: #2c3e50; margin-bottom: 30px; }
+    .container { max-width: 700px; margin: auto; }
+    table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; border: 1px solid #ddd; }
+    th { background: #2c3e50; color: white; padding: 12px; font-size: 13px; text-align: left; }
+    td { padding: 10px 12px; font-size: 13px; border-bottom: 1px solid #eee; color: #444; }
+    tr:last-child td { border-bottom: none; }
+    .present { color: #27ae60; font-weight: bold; }
+    .low { color: #c0392b; font-weight: bold; }
+    .ok { color: #f39c12; font-weight: bold; }
+    .bar-wrap { background: #eee; border-radius: 10px; height: 8px; width: 100px; }
+    .bar-fill { height: 100%; border-radius: 10px; }
+    .summary { display: flex; gap: 15px; margin-top: 20px; }
+    .box { background: white; border: 1px solid #ddd; border-radius: 8px; padding: 15px; flex: 1; text-align: center; }
+    .box h2 { font-size: 24px; margin-bottom: 4px; }
+    .box p { font-size: 12px; color: #777; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📊 Attendance Tracker — 6th Sem</h1>
+    <table>
+      <tr><th>Subject</th><th>Present</th><th>Total</th><th>%</th><th>Status</th></tr>
+      <tr><td>Data Science</td><td>28</td><td>32</td><td><div class="bar-wrap"><div class="bar-fill" style="width:87%;background:#27ae60"></div></div> 87%</td><td class="present">✅ Good</td></tr>
+      <tr><td>Artificial Intelligence</td><td>24</td><td>30</td><td><div class="bar-wrap"><div class="bar-fill" style="width:80%;background:#27ae60"></div></div> 80%</td><td class="present">✅ Good</td></tr>
+      <tr><td>Python Programming</td><td>20</td><td>28</td><td><div class="bar-wrap"><div class="bar-fill" style="width:71%;background:#f39c12"></div></div> 71%</td><td class="ok">⚠️ OK</td></tr>
+      <tr><td>Mathematics</td><td>17</td><td>30</td><td><div class="bar-wrap"><div class="bar-fill" style="width:56%;background:#c0392b"></div></div> 56%</td><td class="low">❌ Low</td></tr>
+      <tr><td>AI Lab</td><td>14</td><td>16</td><td><div class="bar-wrap"><div class="bar-fill" style="width:87%;background:#27ae60"></div></div> 87%</td><td class="present">✅ Good</td></tr>
+    </table>
+    <div class="summary">
+      <div class="box"><h2 style="color:#27ae60">3</h2><p>Subjects OK</p></div>
+      <div class="box"><h2 style="color:#f39c12">1</h2><p>Need Attention</p></div>
+      <div class="box"><h2 style="color:#c0392b">1</h2><p>Danger Zone</p></div>
+    </div>
+  </div>
+</body>
+</html>
