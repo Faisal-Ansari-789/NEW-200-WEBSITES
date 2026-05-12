@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meme Gallery</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f0f0f0; margin: 0; padding: 20px; }
+    h1 { text-align: center; color: #2c3e50; margin-bottom: 6px; }
+    p { text-align: center; color: #777; font-size: 13px; margin-bottom: 25px; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; max-width: 800px; margin: auto; }
+    .card { background: white; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+    .meme-img { background: #2c3e50; height: 160px; display: flex; align-items: center; justify-content: center; font-size: 60px; }
+    .caption { padding: 12px; font-size: 13px; color: #333; font-weight: bold; text-align: center; }
+    .likes { padding: 0 12px 12px; font-size: 12px; color: #aaa; text-align: center; }
+  </style>
+</head>
+<body>
+  <h1>😂 Meme Gallery</h1>
+  <p>When coding hits different...</p>
+  <div class="grid">
+    <div class="card">
+      <div class="meme-img">😭</div>
+      <div class="caption">Me at 2AM debugging one missing semicolon</div>
+      <div class="likes">❤️ 2.4K likes</div>
+    </div>
+    <div class="card">
+      <div class="meme-img">🤡</div>
+      <div class="caption">It works on my machine bro trust me</div>
+      <div class="likes">❤️ 5.1K likes</div>
+    </div>
+    <div class="card">
+      <div class="meme-img">😤</div>
+      <div class="caption">Copy pasting from Stack Overflow like a pro</div>
+      <div class="likes">❤️ 8.7K likes</div>
+    </div>
+    <div class="card">
+      <div class="meme-img">💀</div>
+      <div class="caption">Exam tomorrow. Me: let me build 200 websites</div>
+      <div class="likes">❤️ 12K likes</div>
+    </div>
+    <div class="card">
+      <div class="meme-img">🥲</div>
+      <div class="caption">CSS: I'm about to ruin this man's whole career</div>
+      <div class="likes">❤️ 9.3K likes</div>
+    </div>
+    <div class="card">
+      <div class="meme-img">🔥</div>
+      <div class="caption">Git push to production on a Friday. YOLO.</div>
+      <div class="likes">❤️ 6.6K likes</div>
+    </div>
+  </div>
+</body>
+</html>

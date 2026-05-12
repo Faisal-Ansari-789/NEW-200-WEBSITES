@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exam Schedule</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #fff8f0; margin: 0; padding: 20px; }
+    h1 { text-align: center; color: #c0392b; margin-bottom: 4px; }
+    p { text-align: center; color: #777; font-size: 13px; margin-bottom: 25px; }
+    .container { max-width: 700px; margin: auto; }
+    table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; border: 1px solid #ddd; }
+    th { background: #c0392b; color: white; padding: 12px; font-size: 13px; text-align: left; }
+    td { padding: 12px; font-size: 13px; border-bottom: 1px solid #eee; color: #444; }
+    tr:last-child td { border-bottom: none; }
+    .upcoming { background: #fff3cd; }
+    .done { color: #aaa; }
+    .tag { display: inline-block; padding: 3px 10px; border-radius: 10px; font-size: 11px; }
+    .tag-soon { background: #fde8e8; color: #c0392b; }
+    .tag-done { background: #e8f8e8; color: #27ae60; }
+    .tag-upcoming { background: #fff3cd; color: #856404; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📝 Exam Schedule — 6th Sem</h1>
+    <p>B.Tech AI & Data Science | MIT College Aurangabad</p>
+    <table>
+      <tr><th>Date</th><th>Subject</th><th>Time</th><th>Room</th><th>Status</th></tr>
+      <tr class="done"><td>May 5</td><td>Data Science</td><td>10AM - 1PM</td><td>Hall A</td><td><span class="tag tag-done">✅ Done</span></td></tr>
+      <tr class="done"><td>May 7</td><td>Python Programming</td><td>10AM - 1PM</td><td>Hall B</td><td><span class="tag tag-done">✅ Done</span></td></tr>
+      <tr class="upcoming"><td>May 12</td><td>Artificial Intelligence</td><td>10AM - 1PM</td><td>Hall A</td><td><span class="tag tag-soon">🔥 Soon</span></td></tr>
+      <tr><td>May 15</td><td>Mathematics</td><td>10AM - 1PM</td><td>Hall C</td><td><span class="tag tag-upcoming">📅 Upcoming</span></td></tr>
+      <tr><td>May 18</td><td>AI Lab Practical</td><td>2PM - 5PM</td><td>Lab 3</td><td><span class="tag tag-upcoming">📅 Upcoming</span></td></tr>
+      <tr><td>May 20</td><td>Python Lab Practical</td><td>2PM - 5PM</td><td>Lab 1</td><td><span class="tag tag-upcoming">📅 Upcoming</span></td></tr>
+    </table>
+  </div>
+</body>
+</html>
