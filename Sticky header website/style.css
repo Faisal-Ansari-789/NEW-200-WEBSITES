@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  background: black;
+  color: white;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+}
+
+.content {
+  padding: 20px;
+}
