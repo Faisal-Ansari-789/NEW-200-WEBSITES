@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cognitive Load Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h2>Cognitive Load Tracker</h2>
+  <p id="instruction">Type the word shown below as fast as possible</p>
+
+  <div class="word" id="word">focus</div>
+  <input id="input" placeholder="Type here..." autocomplete="off">
+
+  <div class="stats">
+    <div>Errors: <span id="errors">0</span></div>
+    <div>Speed: <span id="speed">0</span> ms</div>
+    <div>Load Level: <span id="load">Low</span></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

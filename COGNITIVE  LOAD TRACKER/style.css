@@ -1,0 +1,47 @@
+:root {
+  --bg: #020617;
+  --card: rgba(255,255,255,0.08);
+  --accent: #38bdf8;
+}
+
+body {
+  background: var(--bg);
+  color: white;
+  font-family: system-ui, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  background: var(--card);
+  backdrop-filter: blur(12px);
+  padding: 30px;
+  width: 380px;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+}
+
+.word {
+  font-size: 28px;
+  margin: 20px 0;
+  color: var(--accent);
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.stats {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 14px;
+  text-align: center;
+}

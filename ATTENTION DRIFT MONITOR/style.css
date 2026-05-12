@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(160deg, #020617, #0f172a);
+  color: white;
+  font-family: system-ui;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel {
+  background: #111827;
+  padding: 28px;
+  width: 340px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.indicator {
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 12px;
+  background: #16a34a;
+  transition: background .4s;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #020617;
+  border: 1px solid #334155;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}

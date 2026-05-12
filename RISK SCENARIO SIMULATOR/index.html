@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Risk Scenario Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h2>Risk Scenario Simulator</h2>
+  <p id="scenario">You can invest in a high-risk startup.</p>
+
+  <div class="stats">
+    <span>Risk: <b id="risk">High</b></span>
+    <span>Reward: <b id="reward">Low</b></span>
+  </div>
+
+  <button onclick="decide('invest')">Invest</button>
+  <button onclick="decide('skip')">Skip</button>
+
+  <div class="result" id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

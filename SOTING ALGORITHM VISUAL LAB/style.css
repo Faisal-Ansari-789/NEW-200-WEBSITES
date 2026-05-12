@@ -1,0 +1,13 @@
+body {
+  background: #020617;
+  color: white;
+  text-align: center;
+  font-family: Arial;
+}
+
+.bar {
+  width: 20px;
+  display: inline-block;
+  background: cyan;
+  margin: 3px;
+}

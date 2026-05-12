@@ -1,0 +1,28 @@
+body {
+  background: #020617;
+  color: white;
+  font-family: system-ui;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  background: #111827;
+  padding: 25px;
+  border-radius: 12px;
+  width: 360px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.report {
+  margin-top: 20px;
+  font-size: 14px;
+  opacity: 0.9;
+}
