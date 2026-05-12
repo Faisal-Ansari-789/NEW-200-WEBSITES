@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  font-family: Arial;
+}
+
+.grid {
+  width: 300px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.hole {
+  width: 90px;
+  height: 90px;
+  background: brown;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.mole {
+  background: green;
+}

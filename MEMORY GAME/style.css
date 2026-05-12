@@ -1,0 +1,23 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+.grid {
+  width: 320px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.card {
+  height: 70px;
+  background: #444;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
